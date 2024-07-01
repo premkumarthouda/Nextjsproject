@@ -2,7 +2,8 @@ import React from 'react';
 
 import "TreeNode.css"
 
-const TreeNode = ({ node }) => {
+const TreeNode = (props) => {
+  const {node} = props 
   return (
     <div className="bg-container">
       <p className="para">{node.value}</p>
