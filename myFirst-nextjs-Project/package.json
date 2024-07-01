@@ -1,0 +1,14 @@
+{
+    "name": "authentication",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@nestjs/mongoose": "^10.0.6",
+        "axios": "^1.7.2",
+        "mongoose": "^8.4.4",
+        "prop-types": "^15.8.1"
+    }
+}
